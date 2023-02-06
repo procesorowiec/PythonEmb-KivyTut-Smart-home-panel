@@ -7,10 +7,10 @@ class MainScreen(BoxLayout):
     pass
 
 
-class TMonitorApp(App):
+class KivyApp(App):
     def build(self):
         return MainScreen()
 
 
-kv_app = TMonitorApp()
+kv_app = KivyApp()
 kv_app.run()
